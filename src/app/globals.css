@@ -7,5 +7,9 @@ body { margin: 0; background: #080b12; color: #e5edf7; font-family: Arial, Helve
 button, input { font: inherit; }
 .react-flow__attribution { display: none; }
 .react-flow__controls button { background: #172131; color: #d7e4f4; border-color: #334155; }
-.react-flow__edge-textbg { fill: #101621; }
-.react-flow__edge-text { fill: #cbd5e1; font-size: 10px; }
+.react-flow__edge-textbg { fill: #0d141f; }
+.react-flow__edge-text { fill: #b8c6d7; font-size: 9px; font-weight: 500; }
+.react-flow__node { transition: filter 160ms ease, opacity 160ms ease; }
+.react-flow__node:hover { filter: brightness(1.15); }
+.react-flow__minimap { background: #101621 !important; border: 1px solid #334155; border-radius: 8px; overflow: hidden; }
+.react-flow__minimap-mask { fill: #223246; fill-opacity: .55; stroke: #65d8c7; stroke-width: 1; }
